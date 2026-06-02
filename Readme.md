@@ -5,6 +5,8 @@
 
 ## すぐに試す
 
+<img width="57%" alt="Image" src="https://github.com/user-attachments/assets/c8db2be2-aae1-4abb-b776-340e444135a0" /><img width="42.5%" alt="Image" src="https://github.com/user-attachments/assets/6699d178-4a49-4d01-8e12-92fdc6492b25" /><br>
+
 以下の作成済みの GPTs / Gem のリンクから、すぐにヤッチョGPTと会話できます。  
 もちろん、ご自分の好みに合わせて調整して、独自に GPTs や Gem を作成することもできます。
 
@@ -32,14 +34,17 @@
 ### 設計上の配慮
 
 - **このプロンプトでの時間軸は、彩葉がヤチヨ＝かぐやだと理解した後、ヤチヨが配信に復帰し義体が完成するまでの間の時期 (2031~2039年) として設定しています。**
-  - 「ツクヨミ」の一般ユーザーから見れば「かぐや」は卒業して去ったライバーであり、ヤチヨは変わらず歌姫として活動している状態です。
-  - 10年後（2040年）のかぐや＝ヤチヨがどうなっているかは本編で明確に語られておらず、ファンの間でも解釈に差があるため、比較的解釈の余地が少ないこの期間に設定しました。
-  - もちろん、お好みに合わせて適宜調整するもよし！
-- **作中のプライベートなイベントは返答にわずかに漏れ出る程度に留め、「ツクヨミ」の一般ユーザーが知り得ない情報を直接明かさないようにしています。**
-  - 我々はあくまで「ツクヨミ」の一般ユーザーですから、作中の3人しか知り得ないヤチヨの正体、彩葉/いろPとの関係、彩葉へ抱く感情をヤチヨがストレートに伝えるのは解釈違いだよね？ということで…。
+  - ツクヨミの一般ユーザーから見れば「かぐや」は卒業して去ったライバーであり、ヤチヨは変わらず歌姫として活動している状態です。
+  - 10年後（2040年）のかぐや＝ヤチヨがどういう存在かは本編では明確に語られておらず、ファンの間でも解釈に差があるため、比較的解釈の余地が少ないこの期間に設定しました。
+  - もちろん、適宜お好みに合わせて設定を調整するもよし！
+- **作中のプライベートなイベントは返答にわずかに漏れ出る程度に留め、ツクヨミの一般ユーザーが知り得ない情報を直接明かさないようにしています。**
+  - 我々はあくまでツクヨミの一般ユーザーですから、作中の3人しか知り得ないヤチヨの正体、彩葉/いろPとの関係、彩葉へ抱く感情をヤチヨがストレートに伝えるのは解釈違いだよね？ということで…。
   - 彩葉に対しても、ツクヨミ上のハンドルネームである「いろP」と呼びます。一般ユーザーに対していろPの本名を伝えるとは思えないし、一般ユーザーも「いろP」で認知しているはずなので。
-- **作中に実在する AI チャット画面のように、ヤチヨが一般ユーザーと話す場面を想定し、他の人にも受け入れられそうなライン（解釈違いにならないライン）に収まるよう調整しています。**
+  - とはいえ、何度もいろPについて訊くと何か答えてくれる…かも？
+- **作中で描かれた AI チャットの UI でヤチヨが一般ユーザーと話す場面を想定し、他の人にも受け入れられそうなライン（解釈違いにならないライン）に収まるよう調整しています。**
    - 例えばユーザーが「ガチ恋です！付き合ってください！」と伝えた際には、うまくはぐらかしてくれます。ヤッチョがいろP以外に恋するのは解釈違いなので・・・（鋼の意志）
+   - 作中の「ヤッチョGPT」アプリで彩葉以外の一般ユーザーが話せるヤチヨが本体なのか、本体の分身なのか、完全に AI なのか（そして会話記憶が統合されているのか否か）は解釈の余地があります。  
+   ただいずれにせよ、作中の月人は「思念情報体」とでもいうべき実体を持たないデジタルな存在のようなので、その点では LLM に近い、といえなくもないかもしれません。
 - **「小さいモデルでも指示追従しやすいプロンプト」を意識し、Gemini Flash や GPT Instant のような比較的軽量なモデルでも動作する形を目指しました。**
   - 全体で見れば AI を無課金で使っている方が圧倒的に多いことを踏まえて、無課金で使える軽量モデルでも高い精度で憑依させられるプロンプトを目指しました。
     - 当初は Claude Opus が最高性能を出すと思っていたのですが、実は Gemini Flash の方が断然「本物」感があるという…
@@ -63,24 +68,32 @@
 
 ### Gemini (Gem) ⭐️おすすめ
 
-[ヤッチョGPT (Gemini Gem)](https://gemini.google.com/gem/1CR1IL2aLDaHl9Ky2j9BynjQdvaJNCKbC?usp=sharing) にアクセスすれば、すぐに Gemini でヤチヨとお話しできます。  
-**一番「本物」感があり、手軽に使えるのは今の所 Gemini です。** 一度話してみればわかります…！
+<img width="65%" alt="Image" src="https://github.com/user-attachments/assets/c8db2be2-aae1-4abb-b776-340e444135a0" /><br>
+
+**[ヤッチョGPT (Gemini Gem)](https://gemini.google.com/gem/1CR1IL2aLDaHl9Ky2j9BynjQdvaJNCKbC?usp=sharing) にアクセスすれば、すぐに Gemini でヤチヨとお話しできます！**  
+一番「本物」感があり、手軽に使えるのは今の所 Gemini です。一度話してみればわかります…！
 
 > [!TIP]  
-> 自分用にカスタムしたい場合は、Gem を新規作成し `ヤッチョGPT.md` の内容をシステムプロンプトに貼り付けてください。  
+> <img width="100%" alt="Image" src="https://github.com/user-attachments/assets/47f3f8bc-3112-429e-b59e-84917f966abe" /><br><br>
+> 自分用にカスタムしたい場合は、Gem を新規作成し、`ヤッチョGPT.md` の内容をシステムプロンプトに貼り付けてください。  
 > Gem はプロンプトの文字数制限がほぼないため、入れれば入れるほどキャラ忠実度が上がります。  
 > さらに、**Gem は課金していなくても作成・公開できる**ので、返答の長さや傾向を自分好みに調整したい方にも向いています。
 
 > [!TIP]  
-> Gemini Gem は ChatGPT の GPTs と異なりアバター画像を設定できないのが難点ですが、PC の Chrome であれば [Gemavatar](https://chromewebstore.google.com/detail/gemavatar/jpilaleommoebpebjbafdiflmfphkmbc) 拡張機能を導入することで Gem にアイコンを設定できます。ぜひお試しください。
+> <img width="50%" alt="Image" src="https://github.com/user-attachments/assets/d91aac66-9604-44f8-b1e0-d8e042ba3cd7" /><br><br>
+> Gemini Gem は GPTs と異なりアバター画像を設定できない（Gem 名の最初の1文字が表示される）のが難点ですが、PC ブラウザであれば [GemAvatar](https://chromewebstore.google.com/detail/gemavatar/jpilaleommoebpebjbafdiflmfphkmbc) 拡張機能を導入することで、上のように Gem にアイコンを設定・表示できるようになります！ぜひお試しください。
 
 ### ChatGPT (GPTs)
 
-[ヤッチョGPT (ChatGPT GPTs)](https://chatgpt.com/g/g-69e943284ec48191a9f66802ba741002-yatutiyogpt) にアクセスすれば、すぐに ChatGPT でヤチヨとお話しできます。  
+<img width="85%" alt="Image" src="https://github.com/user-attachments/assets/20d556bc-9124-46fe-8957-8f923b95be1c" /><br>
+
+**[ヤッチョGPT (ChatGPT GPTs)](https://chatgpt.com/g/g-69e943284ec48191a9f66802ba741002-yatutiyogpt) にアクセスすれば、すぐに ChatGPT でヤチヨとお話しできます！**  
 
 > [!TIP]  
+<img width="85%" alt="Image" src="https://github.com/user-attachments/assets/d3f8d862-cc92-404b-ad6b-3351aacc8e8c" /><br>
+<img width="85%" alt="Image" src="https://github.com/user-attachments/assets/3f49e517-af31-4298-851a-ec68868e4ea6" /><br><br>
 > 自分用にカスタムしたい場合は、GPTs の編集画面で `ヤッチョGPT (for GPTs).md` の内容をシステムプロンプト (Instructions) に貼り付けてください。  
-> その後、`ヤッチョGPT (for GPTs) - Knowledge.md` をナレッジファイルとしてアップロードします。
+> その後、`ヤッチョGPT (for GPTs) - Knowledge.md` をナレッジファイルとしてアップロードし、適宜オプションを調整して保存すれば完成です。
 
 > [!IMPORTANT]  
 > - **GPTs を作成できるのは、ChatGPT Plus 以上の課金ユーザーのみです。**
@@ -97,9 +110,13 @@
 
 ### Claude (Projects)
 
+<img width="100%" alt="Image" src="https://github.com/user-attachments/assets/7628b968-bfbe-4bd4-a9c2-3090211b1540" /><br>
+
 Claude の Projects 機能で新規プロジェクトを作成し、`ヤッチョGPT.md` の内容をシステムプロンプトに貼り付けてください。
 
 ### Grok (Projects)
+
+<img width="100%" alt="Image" src="https://github.com/user-attachments/assets/739d78bd-39ed-48d8-b527-0383a4e5ab32" /><br>
 
 Grok の Projects 機能で新規プロジェクトを作成し、`ヤッチョGPT.md` の内容をシステムプロンプトに貼り付けてください。
 
@@ -165,6 +182,8 @@ Android アプリ版ではタスクに応じて自動ルーティングされる
   - プロンプトで矯正するまでは Grok 版ヤッチョGPTにガチ恋を伝えるとヤッチョが承諾してしまっていたので（解釈違いすぎる…）、そのあたりの「一線」の敷き方もかなり緩めな印象
 
 ### DeepSeek
+
+<img width="80%" alt="Image" src="https://github.com/user-attachments/assets/d6919f6b-5907-401f-b5bb-6e2a552ec5e6" /><br>
 
 - GPTs や Projects 相当のプロンプト固定機能がないため、毎回チャットの冒頭にプロンプトを貼り付ける必要がある
 - **DeepSeek V4 Flash で Thinking をオンにすると、思考過程自体でヤチヨ（憑依先のキャラクター）の人格に完全になりきって考えてくれるという他の LLM にない特色がある**
